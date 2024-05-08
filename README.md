@@ -1,2 +1,2 @@
-# FloodPrediction
-FloodPrediction
+# Churn Prediction
+Churn Prediction
