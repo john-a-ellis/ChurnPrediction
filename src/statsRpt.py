@@ -1,4 +1,4 @@
-    #importing Dependencies
+#importing Dependencies
 import pandas as pd
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, f1_score, roc_auc_score, roc_curve, balanced_accuracy_score, mean_squared_error, r2_score, explained_variance_score, mean_pinball_loss, mean_absolute_percentage_error, median_absolute_error
 from sklearn.metrics.pairwise import haversine_distances
@@ -151,7 +151,7 @@ def refit_strategy(cv_results):
     """
     # print the info about the grid-search for the different scores
     # precision_threshold = 0.75
-    balanced_accuracy_threshold = 0.965
+    balanced_accuracy_threshold = 0.7804
 
     cv_results_ = pd.DataFrame(cv_results)
     print("All grid-search results:")
